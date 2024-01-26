@@ -1,8 +1,21 @@
-# video 8 : Flow control using if else & switch 
+# Video 8: Flow Control in JavaScript | if-else | switch
 
-### index.html
+## Usage
 
-```
+To use this code for learning purposes:
+
+Clone this repository.
+Open index.html in a web browser.
+Feel free to explore the code and experiment with JavaScript flow control concepts demonstrated in the video.
+follow the video guid [here](URL)
+
+
+## License
+#### You can fill in the code sections as needed. If you have any specific instructions or details to add, feel free to customize the README accordingly.
+
+### HTML - index.html
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,9 +50,8 @@
 </html>
 ```
 
-### style.css
-
-```
+### CSS - style.css 
+```css
 * {
   margin: 0;
   padding: 0;
@@ -122,3 +134,4 @@ body {
 }
 
 ```
+

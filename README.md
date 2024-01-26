@@ -1,4 +1,4 @@
-# video 8 : flow control using if else and switch 
+# video 8 : Flow control using if else & switch 
 
 ### index.html
 

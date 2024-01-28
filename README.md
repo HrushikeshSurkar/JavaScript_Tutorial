@@ -197,19 +197,3 @@ switch (login) {
 }
 
 ```
-
-# Video 9: Loops in JavaScript
-
-### HTML - index.html
-
-```html
-
-```
-
-```css
-
-```
-
-```js
-
-```

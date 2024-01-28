@@ -135,3 +135,81 @@ body {
 
 ```
 
+### js - script.js
+
+#### if
+
+```
+let login = "login";
+
+if (login == true) {
+  document.getElementById("login").innerHTML = "logout";
+}
+
+```
+
+#### if else
+
+```
+let login = "login";
+
+if (login == true) {
+  document.getElementById("login").innerHTML = "logout";
+}
+else {
+  alert("invalid input");
+}
+```
+
+#### else if
+
+```
+
+let login = "login";
+
+if (login == true) {
+  document.getElementById("login").innerHTML = "logout";
+} else if (login == false) {
+  document.getElementById("login").innerHTML = "login";
+} else if (login == 10) {
+  document.getElementById("login").innerHTML = "10";
+} else {
+  alert("invalid input");
+}
+
+```
+
+#### Switch case
+
+```
+let login = "login";
+
+switch (login) {
+  case "login":
+    document.getElementById("login").innerHTML = "logout";
+    break;
+  case "logout":
+    document.getElementById("login").innerHTML = "login";
+    break;
+  default:
+    document.getElementById("login").innerHTML = "10";
+    break;
+}
+
+```
+
+# Video 9: Loops in JavaScript
+
+### HTML - index.html
+
+```html
+
+```
+
+```css
+
+```
+
+```js
+
+```

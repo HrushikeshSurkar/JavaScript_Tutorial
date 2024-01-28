@@ -7,7 +7,7 @@ To use this code for learning purposes:
 Clone this repository.
 Open index.html in a web browser.
 Feel free to explore the code and experiment with JavaScript flow control concepts demonstrated in the video.
-follow the video guid [here](URL)
+follow the video guid [here](https://youtu.be/atrYgwL5TsQ)
 
 
 ## License

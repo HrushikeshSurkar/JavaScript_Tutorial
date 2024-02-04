@@ -9,7 +9,7 @@
 # License
 
 > You can fill in the code sections as needed. If you have any specific instructions or details to add, feel free to customize the README accordingly.
-
+<details>
 # Video 8: Flow Control in JavaScript | if-else | switch
 
 ---
@@ -204,7 +204,7 @@ switch (login) {
     break;
 }
 ```
-
+</details>
 # Video 9: Loops in JavaScript
 
 ---

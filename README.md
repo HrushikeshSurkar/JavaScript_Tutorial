@@ -382,18 +382,16 @@ This loop will also print numbers from 1 to 5.
 
 > Function Declaration
 > You can declare a function using the function keyword followed by the function name, parameters (if any), and the function body enclosed in curly
-
-    ``` function functionName(parameter1, parameter2) {// function body}```
+``` function functionName(parameter1, parameter2) {// function body}```
 
 ### Calling Functions
 
 > To call or invoke a function, you simply write its name followed by parentheses ().
-
-      ```functionName(argument1, argument2); ```
+``` functionName(argument1, argument2); ```
 
 #### Example
 
-```
+``` 
 // Function declaration
 function greet(name){
     return `Hello, ${name}!`;

@@ -10,7 +10,6 @@
 
 > You can fill in the code sections as needed. If you have any specific instructions or details to add, feel free to customize the README accordingly.
 
-
 # Video 8: Flow Control in JavaScript | if-else | switch
 
 ---
@@ -205,6 +204,7 @@ switch (login) {
     break;
 }
 ```
+
 # Video 9: Loops in JavaScript
 
 ---
@@ -382,16 +382,16 @@ This loop will also print numbers from 1 to 5.
 
 > Function Declaration
 > You can declare a function using the function keyword followed by the function name, parameters (if any), and the function body enclosed in curly
-``` function functionName(parameter1, parameter2) {// function body}```
+> ` function functionName(parameter1, parameter2) {// function body}`
 
 ### Calling Functions
 
 > To call or invoke a function, you simply write its name followed by parentheses ().
-``` functionName(argument1, argument2); ```
+> `functionName(argument1, argument2);`
 
 #### Example
 
-``` 
+```
 // Function declaration
 function greet(name){
     return `Hello, ${name}!`;
@@ -401,7 +401,58 @@ let message = greet('John');
 console.log(message); // Output: Hello, John!
 ```
 
-## Introduction to Function Expressions and Arrow Functions
+#### Leap Year code
+
+> HTMl code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leap Year Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Leap Year Checker</h1>
+    <input type="number" id="year" placeholder="Enter a year" />
+    <button onclick="checkLeapYear()">Check</button>
+    <div id="result"></div>
+  </body>
+</html>
+```
+
+> CSS code
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+```
+
+> js code
+
+```js
+function checkLeapYear() {
+  var year = document.getElementById("year").value;
+  var result = document.getElementById("result");
+
+  if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+    result.textContent = year + " is a leap year!";
+  } else {
+    result.textContent = year + " is not a leap year.";
+  }
+}
+```
+
+--- 
+# Video 11 : Introduction to Function Expressions and Arrow Functions
 
 In addition to function declarations, JavaScript also supports function expressions and arrow functions, which are more concise ways to define functions.
 

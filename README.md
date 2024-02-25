@@ -451,6 +451,20 @@ function checkLeapYear() {
 }
 ```
 
+## What is a Function Expression?
+A function expression in programming allows you to define a function as a value within an expression. This means you can assign a function to a variable or pass it as an argument to another function, treating it like any other data type.
+>Example in JavaScript
+```
+// Function expression
+var greet = function(name) {
+    return "Hello, " + name + "!";
+};
+
+// Calling the function
+console.log(greet("John")); // Output: Hello, John!
+
+```
+>In this example, greet is a variable that holds a function. This function takes a parameter name and returns a greeting message. Function expressions are useful for creating anonymous functions or passing functions as arguments to other functions.
 --- 
 # Video 11 : Introduction to Function Expressions and Arrow Functions
 

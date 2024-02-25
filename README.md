@@ -138,7 +138,6 @@ body {
 ```
 
 ## JavaScript - script.js
-
 #### **if Statement**
 
 > **Description:** The if statement allows us to execute a block of code if a specified condition is true. In this example, we change the content of an HTML element based on a condition.
@@ -400,8 +399,38 @@ function greet(name){
 let message = greet('John');
 console.log(message); // Output: Hello, John!
 ```
+## Introduction to Function Expressions and Arrow Functions
+In addition to function declarations, JavaScript also supports function expressions and arrow functions, which are more concise ways to define functions.
 
-#### Leap Year code
+### Arrow Function
+Arrow functions provide a concise syntax for defining functions, particularly useful for simple one-liners. They use the arrow (=>) syntax.
+#### Example in JavaScript:
+```
+const greet = (name) => {
+    return "Hello, " + name + "!";
+};
+
+// Calling the function
+console.log(greet("John")); // Output: Hello, John!
+```
+> In this example, greet is a variable that holds an arrow function. It takes a parameter name and returns a greeting message. Arrow functions are handy for writing compact and readable code.
+
+## What is a Function Expression?
+A function expression in programming allows you to define a function as a value within an expression. This means you can assign a function to a variable or pass it as an argument to another function, treating it like any other data type.
+>Example in JavaScript
+```
+// Function expression
+var greet = function(name) {
+    return "Hello, " + name + "!";
+};
+
+// Calling the function
+console.log(greet("John")); // Output: Hello, John!
+
+```
+>In this example, greet is a variable that holds a function. This function takes a parameter name and returns a greeting message. Function expressions are useful for creating anonymous functions or passing functions as arguments to other functions.
+
+### Leap Year code
 
 > HTMl code
 
@@ -450,55 +479,3 @@ function checkLeapYear() {
   }
 }
 ```
-
-## What is a Function Expression?
-A function expression in programming allows you to define a function as a value within an expression. This means you can assign a function to a variable or pass it as an argument to another function, treating it like any other data type.
->Example in JavaScript
-```
-// Function expression
-var greet = function(name) {
-    return "Hello, " + name + "!";
-};
-
-// Calling the function
-console.log(greet("John")); // Output: Hello, John!
-
-```
->In this example, greet is a variable that holds a function. This function takes a parameter name and returns a greeting message. Function expressions are useful for creating anonymous functions or passing functions as arguments to other functions.
---- 
-# Video 11 : Introduction to Function Expressions and Arrow Functions
-
-In addition to function declarations, JavaScript also supports function expressions and arrow functions, which are more concise ways to define functions.
-
-### Function Expression
-
-A function expression defines a function as part of a larger expression or assigns it to a variable.
-
-```
-const functionName = function(parameter1, parameter2) {
-// function body
-};
-```
-
-### Arrow Function
-
-Arrow functions provide a more concise syntax for defining functions, especially for simple one-liners. They use the arrow (=>) syntax.
-
-```
-const functionName = (parameter1, parameter2) => {
-    // function body
-};
-```
-
-#### Example:
-
-```
-// Function expression
-const square = function(x) {
-return x \* x;
-};
-// Arrow function
-const cube = (x) => x _ x _ x;
-```
-
-Functions are a fundamental concept in JavaScript and mastering them will empower you to write more efficient and maintainable code.

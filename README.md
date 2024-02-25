@@ -479,3 +479,66 @@ function checkLeapYear() {
   }
 }
 ```
+
+
+# Video 11 : Quiz Application
+
+---
+
+## Introduction
+
+The Quiz Application allows users to:
+
+- Start the quiz.
+- Answer multiple-choice questions.
+- Submit answers and receive feedback.
+- Track their score.
+- Restart the quiz if desired.
+- It's a simple web-based quiz implemented using HTML, CSS, and JavaScript.
+
+## Steps to Crate Quiz Application
+
+### Step 1 : Analyze the Problem
+
+**Objective:** Create a simple web application that allows users to take a quiz by answering a single question.
+
+**Features:**
+
+- The application should display a start button prompting the user to begin the quiz.
+- Upon clicking the start button, the application should display a question along with multiple-choice options.
+- Users should be able to select one option as their answer.
+- After selecting an option, the user should be able to submit their answer.
+- Upon submission, the application should provide feedback indicating whether the answer was correct or incorrect.
+- The application should keep track of the user's score.
+- After answering the question, the user should have the option to restart the quiz.
+- The application should display the user's score at the end of the quiz.
+
+### Step 2 : Start Building
+
+- Create an HTML file (index.html) with the necessary structure, including div elements for displaying the question, options, feedback, score, and buttons.
+- Link a CSS file (style.css) to style the appearance of the quiz interface.
+- Write JavaScript code (script.js) to implement the quiz functionality.
+- Define variables to store references to HTML elements such as the question, options, feedback, score, and buttons.
+- Implement functions to handle starting the quiz, displaying the question, checking the answer, displaying feedback, updating the score, and restarting the quiz.
+- Add event listeners to the start button, submit button, and restart button to trigger the corresponding functions when clicked.
+- Define an array or object to store quiz questions along with their options and correct answers.
+- Update the question and options dynamically based on the current question index.
+- Compare the user's selected answer with the correct answer to determine if it is correct or incorrect.
+- Display appropriate feedback and update the score accordingly.
+- Allow the user to restart the quiz by resetting the score and displaying the start button again.
+
+### Step 3 : Testing
+
+- Test the application thoroughly to ensure all features work as expected.
+- Verify that the quiz starts correctly, displays questions and options, accepts user input, provides feedback, updates the score, and allows the user to restart the quiz.
+- Test edge cases such as selecting no option, selecting incorrect options, and restarting the quiz multiple times.
+- Ensure the application is responsive and works well on different devices and screen sizes.
+
+### Step 4 : Deployment
+
+- Host the application on a web server or deploy it to a hosting platform to make it accessible online.
+- Share the link with users to allow them to take the quiz.
+
+## Solution Link
+
+[Github](https://google.com)

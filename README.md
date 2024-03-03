@@ -541,4 +541,8 @@ The Quiz Application allows users to:
 
 ## Solution Link
 
-[Github](https://google.com)
+[Github](https://github.com/HrushikeshSurkar/QuizApplication)
+
+## Video Guide
+[Youtube]()
+

@@ -546,3 +546,78 @@ The Quiz Application allows users to:
 ## Video Guide
 [Youtube](https://youtu.be/wsTDJ2H1mo4?si=_C_Zj_cY6cb3ywm2)
 
+
+# Video 12 : Mastering Scope and Closures in JavaScript
+
+Welcome back, JavaScript enthusiasts! Today, we're diving deep into two fundamental concepts: scope and closures. Understanding these concepts is crucial for writing clean, efficient JavaScript code. So grab your favorite beverage, sit back, and let's get started!
+
+## Why Scope and Closures Matter
+
+Before we jump into the nitty-gritty details, let's talk about why scope and closures matter in JavaScript. Scope determines the accessibility of variables and functions in your code, while closures allow inner functions to access variables from their outer scope. These concepts are essential for writing code that's easier to understand, maintain, and debug."
+
+## Introduction to Scope
+
+Let's start with scope. In JavaScript, scope defines where variables and functions are accessible within your code.
+
+Variables declared outside of any function are in the global scope, meaning they can be accessed from anywhere in your code. On the other hand, variables declared within a function are in the local scope and can only be accessed within that function.
+
+#### Code Example:
+
+```javascript
+var globalVar = "I'm global";
+function accessGlobal() {
+  console.log(globalVar); // Accessing global variable
+}
+accessGlobal(); // Output: I'm global
+```
+
+## Exploring Closures
+
+Now, let's explore closures. Closures allow inner functions to retain access to variables from their lexical scope, even after the outer function has finished executing.
+
+This means that inner functions 'remember' and can still use variables from their outer scope, even if those variables are no longer in scope.
+
+#### Code Example:
+
+```javascript
+function outerFunction() {
+  var outerVar = "I'm outer";
+  function innerFunction() {
+    console.log(outerVar); // Accessing outer function's variable
+  }
+  return innerFunction;
+}
+
+var closureFunc = outerFunction();
+closureFunc(); // Output: I'm outer
+```
+
+#### Practical Examples
+
+To solidify our understanding, let's dive into some practical examples.
+
+We'll explore how scope and closures are used in everyday JavaScript programming, from managing variable access to creating encapsulated functionality.
+
+#### Code Example:
+
+```javascript
+var counter = (function () {
+  var count = 0;
+
+  return function () {
+    return ++count;
+  };
+})();
+
+console.log(counter()); // Output: 1
+console.log(counter()); // Output: 2
+```
+
+## Conclusion
+
+And there you have it! Scope and closures are fundamental concepts in JavaScript that every developer should master.
+
+By understanding how scope works and leveraging closures effectively, you'll be well-equipped to write cleaner, more maintainable JavaScript code.
+
+Thanks for tuning in! Don't forget to like, subscribe, and hit that notification bell for more JavaScript tips and tutorials. Until next time, happy coding!
+
